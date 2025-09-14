@@ -5,8 +5,8 @@ local value1 = workspace.first
 local value2 = workspace.second
 
 local function abrir()
-	if value1.Value == false then
-		value2.Value = true
+	if value2.Value == false then
+		value1.Value = true
 		puerta.CanCollide = false
 		puerta.Transparency = 1
 		boton.BrickColor = BrickColor.Green()
@@ -15,8 +15,8 @@ local function abrir()
 end
 
 local function cerrar()
-	if value1.Value == false then
-		value2.Value = false
+	if value2.Value == false then
+		value1.Value = false
 		puerta.CanCollide = true
 		puerta.Transparency = 0
 		boton.BrickColor = BrickColor.Red()
