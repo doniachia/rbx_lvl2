@@ -1,6 +1,6 @@
-local puerta = game.Workspace.etapa1.puerta
+local puerta = script.Parent.Parent.puerta
 local hitbox = script.Parent.Hitbox
-local boton = script.Parent.Parent:FindFirstChild("Button")
+local boton = script.Parent.Button
 
 local function abrir()
 	puerta.CanCollide = false
