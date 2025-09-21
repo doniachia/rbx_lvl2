@@ -9,6 +9,7 @@ local function crearBloque()
 		bloque.Parent = workspace
 		bloque.Size = Vector3.new(5, 5, 5)
 		bloque.Position = spawn.Position
+		bloque.Name = 'box'
 	end
 	
 end
