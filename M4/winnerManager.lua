@@ -16,4 +16,9 @@ local function loadPlayerWins(player)
 	end
 end
 
+game.Players.PlayerAdded:Connect(function(plr)
+	loadPlayerWins(plr)
+end)
+
+
 
