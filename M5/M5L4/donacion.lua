@@ -1,7 +1,7 @@
 
 local button = script.Parent
 local MPS = game:GetService("MarketplaceService")
-local id = 1810709111 
+local id = 0000000000 
 
 
 function donate(player)	
