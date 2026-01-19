@@ -1,4 +1,4 @@
-ocal spawnPoint = workspace:WaitForChild("Spawn")
+local spawnPoint = workspace:WaitForChild("Spawn")
 local replicatedStorage = game:GetService("ReplicatedStorage")
 local coin = replicatedStorage:FindFirstChild("Coin")
 local maxObjects = 70
