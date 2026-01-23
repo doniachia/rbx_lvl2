@@ -1,6 +1,6 @@
 -- Para hacer la prueba con una pieza cuyo nombre debe ser "Test"
 local maxHp
-local part = workspace:WaitForChild("Test")
+local part = workspace:WaitForChild("Test") -- Variable temporal
 
 
 local function createCoinGui(coin, hp)
