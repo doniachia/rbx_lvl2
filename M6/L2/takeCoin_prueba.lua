@@ -4,7 +4,7 @@ local part = workspace:WaitForChild("Test") -- Variable temporal
 
 
 local function createCoinGui(coin, hp)
-  maxHp = hp
+  	maxHp = hp
 	-- Se crea y configura un BillboardGui con código
 	local billboardGui = Instance.new("BillboardGui")
 	billboardGui.ExtentsOffset = Vector3.new(0,2,0)
